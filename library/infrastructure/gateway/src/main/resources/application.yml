@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: gateway
+  server:
+    port: 8090
+  cloud:
+    gateway:
+      routes:
+      - id: #application name del microservicio
+        uri: lb:// #application name del microservicio en caso de instancias
+        predicates: #para que no choquen las rutas
+        - Path=/api/books #url base
+        filters:
+        - StripPrefix=2 #los prefijos de la ruta base o path en este caso se cuentan las palabras que son 2 api y books
+        ## usar las rutas para todos los microservicios
+
+
+eureka:
+  client:
+    service-url.defaultzone: "http://localhost:8761/eureka"
+
