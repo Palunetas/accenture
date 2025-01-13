@@ -24,7 +24,6 @@
 	<modules>
 		<module>business</module>
 		<module>infrastructure</module>
-		<module>infrastructure/gateway</module>
 	</modules>
 	<scm>
 		<connection/>
