@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.accenture.exception.handler.GlobalExceptionHandlerTest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.059 s -- in com.accenture.exception.handler.GlobalExceptionHandlerTest
