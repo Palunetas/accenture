@@ -7,19 +7,3 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-
-      #eureka:
-      #  client:
-      #    service-url.defaultzone: "http://localhost:8761/eureka"
-
-
-
-## se confingura asi para los puertos dinamicos en las demas apps
-#server:
-  #port:${PORT:0}
-#eureka:
-  #instance:
-    #instance-id:
-      #${spring.cloud.client.hostname}:
-        #${spring.application.name}:
-          #${random.value}
