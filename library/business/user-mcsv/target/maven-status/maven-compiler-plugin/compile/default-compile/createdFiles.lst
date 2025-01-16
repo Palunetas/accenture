@@ -1,0 +1,7 @@
+com\accenture\exception\BadRequestException.class
+com\accenture\exception\model\ErrorResponse.class
+com\accenture\entities\User.class
+com\accenture\exception\model\ErrorConstants.class
+com\accenture\exception\handler\GlobalExceptionHandler.class
+com\accenture\exception\NotFoundException.class
+com\accenture\UserApplication.class
