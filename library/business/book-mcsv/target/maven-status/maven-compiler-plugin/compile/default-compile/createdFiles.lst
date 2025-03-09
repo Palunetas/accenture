@@ -1,0 +1,12 @@
+com\accenture\exception\BadRequestException.class
+com\accenture\exception\model\ErrorResponse.class
+com\accenture\repositories\BookRepository.class
+com\accenture\configuration\annotation\MinPagesValidator.class
+com\accenture\BookApplication.class
+com\accenture\configuration\annotation\MinPages.class
+com\accenture\exception\NotFoundException.class
+com\accenture\controllers\BookController.class
+com\accenture\services\BookService.class
+com\accenture\exception\model\ErrorConstants.class
+com\accenture\exception\handler\GlobalExceptionHandler.class
+com\accenture\entities\Book.class

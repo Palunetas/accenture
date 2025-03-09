@@ -1,0 +1,4 @@
+com\accenture\config\RestTemplateConfig.class
+com\accenture\controllers\LoansController.class
+com\accenture\service\LoanService.class
+com\accenture\LoansApplication.class

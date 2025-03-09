@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.accenture.LoansApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.042 s <<< FAILURE! - in com.accenture.LoansApplicationTest
+contextLoads  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loansController': Unsatisfied dependency expressed through field 'loanService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loanService': Unsatisfied dependency expressed through field 'bookClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.accenture.client.BookClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-loadbalancer?
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loanService': Unsatisfied dependency expressed through field 'bookClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.accenture.client.BookClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-loadbalancer?
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.accenture.client.BookClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-loadbalancer?
+Caused by: java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-loadbalancer?
+

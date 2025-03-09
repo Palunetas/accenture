@@ -14,6 +14,9 @@
     <url>http://maven.apache.org</url>
     <modules>
         <module>user-mcsv</module>
+        <module>book-mcsv</module>
+        <module>loans-mcsv</module>
+        <module>notifications-mcsv</module>
     </modules>
 
     <properties>

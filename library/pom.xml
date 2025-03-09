@@ -24,6 +24,8 @@
 	<modules>
 		<module>business</module>
 		<module>infrastructure</module>
+        <module>business/loans-mcsv</module>
+		<module>business/notifications-mcsv</module>
 	</modules>
 	<scm>
 		<connection/>

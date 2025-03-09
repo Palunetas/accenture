@@ -1,0 +1,12 @@
+C:\Users\palun\Documents\Spring projects\accenture\library\business\book-mcsv\src\main\java\com\accenture\BookApplication.java
+C:\Users\palun\Documents\Spring projects\accenture\library\business\book-mcsv\src\main\java\com\accenture\configuration\annotation\MinPages.java
+C:\Users\palun\Documents\Spring projects\accenture\library\business\book-mcsv\src\main\java\com\accenture\configuration\annotation\MinPagesValidator.java
+C:\Users\palun\Documents\Spring projects\accenture\library\business\book-mcsv\src\main\java\com\accenture\controllers\BookController.java
+C:\Users\palun\Documents\Spring projects\accenture\library\business\book-mcsv\src\main\java\com\accenture\entities\Book.java
+C:\Users\palun\Documents\Spring projects\accenture\library\business\book-mcsv\src\main\java\com\accenture\exception\BadRequestException.java
+C:\Users\palun\Documents\Spring projects\accenture\library\business\book-mcsv\src\main\java\com\accenture\exception\handler\GlobalExceptionHandler.java
+C:\Users\palun\Documents\Spring projects\accenture\library\business\book-mcsv\src\main\java\com\accenture\exception\model\ErrorConstants.java
+C:\Users\palun\Documents\Spring projects\accenture\library\business\book-mcsv\src\main\java\com\accenture\exception\model\ErrorResponse.java
+C:\Users\palun\Documents\Spring projects\accenture\library\business\book-mcsv\src\main\java\com\accenture\exception\NotFoundException.java
+C:\Users\palun\Documents\Spring projects\accenture\library\business\book-mcsv\src\main\java\com\accenture\repositories\BookRepository.java
+C:\Users\palun\Documents\Spring projects\accenture\library\business\book-mcsv\src\main\java\com\accenture\services\BookService.java

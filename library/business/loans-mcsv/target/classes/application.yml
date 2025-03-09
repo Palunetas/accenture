@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: loans-mcsv
+
+server:
+  port: ${PORT:0}
+  error:
+    include-stacktrace: never
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.hostname}:${spring.application.name}:${random.value}
+  client:
+    service-url.defaultzone: "http://localhost:8761/eureka"

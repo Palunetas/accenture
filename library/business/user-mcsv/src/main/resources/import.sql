@@ -1,0 +1,10 @@
+INSERT INTO usuarios (NAME, PASSWORD, EMAIL, ENABLE) VALUES ('Juan', '12332', 'juan@gmail.com', true);
+INSERT INTO usuarios (NAME, PASSWORD, EMAIL, ENABLE) VALUES ('Maria', 'abc123', 'maria@outlook.com', true);
+INSERT INTO usuarios (NAME, PASSWORD, EMAIL, ENABLE) VALUES ('Carlos', 'password1', 'carlos@hotmail.com', false);
+INSERT INTO usuarios (NAME, PASSWORD, EMAIL, ENABLE) VALUES ('Ana', 'secret456', 'ana@yahoo.com', true);
+INSERT INTO usuarios (NAME, PASSWORD, EMAIL, ENABLE) VALUES ('Pedro', 'mypassword789', 'pedro@gmail.com', true);
+INSERT INTO usuarios (NAME, PASSWORD, EMAIL, ENABLE) VALUES ('Laura', 'qwerty321', 'laura@aol.com', false);
+INSERT INTO usuarios (NAME, PASSWORD, EMAIL, ENABLE) VALUES ('Miguel', '123password', 'miguel@gmail.com', true);
+INSERT INTO usuarios (NAME, PASSWORD, EMAIL, ENABLE) VALUES ('Sofia', 'sofia2023', 'sofia@icloud.com', true);
+INSERT INTO usuarios (NAME, PASSWORD, EMAIL, ENABLE) VALUES ('Luis', 'luis12345', 'luis@hotmail.com', false);
+INSERT INTO usuarios (NAME, PASSWORD, EMAIL, ENABLE) VALUES ('Elena', 'elena1234', 'elena@live.com', true);
